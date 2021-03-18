@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>新时空前端</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .logo {
+      display: block;
+      margin: 150px auto 20px;
+    }
+
+    h1 {
+      font-size: 18px;
+      text-align: center;
+      font-weight: normal;
+      font-style: italic;
+      text-decoration: dashed;
+    }
+
+    .link-list {
+      margin: 0 auto;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-style: italic;
+      margin-top: 20px;
+    }
+  </style>
 </head>
+
 <body>
-  新时空前端 / New Space-Time Front End
-  <br/>
-  <ul>
+  <div>
+    <img class="logo" src="./logo.png" />
+    <h1>新时空前端 <br /> New Space-Time Front End</h1>
+  </div>
+
+  <ul class="link-list">
     <li>
-      <a href="https://blog.nst-fe.site/">博客地址</a>
+      <a href="https://blog.nst-fe.site/">-- 博客地址 --</a>
     </li>
   </ul>
 </body>
+
 </html>
